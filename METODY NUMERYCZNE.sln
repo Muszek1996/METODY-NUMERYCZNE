@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2036
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "METODY NUMERYCZNE", "METODY NUMERYCZNE\METODY NUMERYCZNE.vcxproj", "{6EA44882-119D-4953-9B0F-69E0BA59A579}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6EA44882-119D-4953-9B0F-69E0BA59A579}.Debug|x64.ActiveCfg = Debug|x64
+		{6EA44882-119D-4953-9B0F-69E0BA59A579}.Debug|x64.Build.0 = Debug|x64
+		{6EA44882-119D-4953-9B0F-69E0BA59A579}.Debug|x86.ActiveCfg = Debug|Win32
+		{6EA44882-119D-4953-9B0F-69E0BA59A579}.Debug|x86.Build.0 = Debug|Win32
+		{6EA44882-119D-4953-9B0F-69E0BA59A579}.Release|x64.ActiveCfg = Release|x64
+		{6EA44882-119D-4953-9B0F-69E0BA59A579}.Release|x64.Build.0 = Release|x64
+		{6EA44882-119D-4953-9B0F-69E0BA59A579}.Release|x86.ActiveCfg = Release|Win32
+		{6EA44882-119D-4953-9B0F-69E0BA59A579}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8B2222DA-5BED-453E-854C-B9D692C48FF1}
+	EndGlobalSection
+EndGlobal
