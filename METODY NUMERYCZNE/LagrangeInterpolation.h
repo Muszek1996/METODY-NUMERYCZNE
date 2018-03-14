@@ -2,14 +2,14 @@
 #include "Punkt.h"
 #include <vector>
 
-class InterpolationFunction :
+class LagrangeInterpolation :
     public Punkt
 {
 public:
     double lagrangeIOfX(int iArgument, double xArgument);
     double interpolationFunction(double xArgument);
     std::vector<Punkt> points;
-    InterpolationFunction(std::vector<Punkt> punkty);
-    ~InterpolationFunction();
+    LagrangeInterpolation(std::vector<Punkt> punkty);
+    ~LagrangeInterpolation();
 };
 

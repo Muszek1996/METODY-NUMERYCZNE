@@ -21,7 +21,13 @@
     <ClCompile Include="Punkt.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="InterpolationFunction.cpp">
+    <ClCompile Include="GetFromFile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LagrangeInterpolation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NewtonianInterpolation.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -29,8 +35,17 @@
     <ClInclude Include="Punkt.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="InterpolationFunction.h">
+    <ClInclude Include="GetFromFile.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="LagrangeInterpolation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NewtonianInterpolation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="dane.txt" />
   </ItemGroup>
 </Project>

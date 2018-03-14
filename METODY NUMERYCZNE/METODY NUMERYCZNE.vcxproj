@@ -116,13 +116,15 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="GetFromFile.cpp" />
-    <ClCompile Include="InterpolationFunction.cpp" />
+    <ClCompile Include="LagrangeInterpolation.cpp" />
+    <ClCompile Include="NewtonianInterpolation.cpp" />
     <ClCompile Include="Punkt.cpp" />
     <ClCompile Include="Source.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="GetFromFile.h" />
-    <ClInclude Include="InterpolationFunction.h" />
+    <ClInclude Include="LagrangeInterpolation.h" />
+    <ClInclude Include="NewtonianInterpolation.h" />
     <ClInclude Include="Punkt.h" />
   </ItemGroup>
   <ItemGroup>

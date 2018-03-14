@@ -1,21 +1,28 @@
 #include <iostream>
 #include "Punkt.h"
 #include "vector"
-#include "InterpolationFunction.h"
+#include "LagrangeInterpolation.h"
 #include "GetFromFile.h"
+#include "NewtonianInterpolation.h"
 
 
 int main()
 {
     std::vector<Punkt> points;
-	GetFromFile dane("plik.txt");
-    points.push_back(Punkt(1, 1));
-    points.push_back(Punkt(4, 2));
-    points.push_back(Punkt(9, 3));
+	GetFromFile dane("dane.txt");
+	dane.fillPoints(points);
+	if (points.size() < 1)std::cout << "ERROR";
+	
 
-    InterpolationFunction Interpolacja(points);
+    LagrangeInterpolation Interpolacja(points);
     double val = Interpolacja.interpolationFunction(7);
-    std::cout << val;
+
+	NewtonianInterpolation InterpolacjaNewtona(points);
+	std::cout << std::endl<< InterpolacjaNewtona.valueOfX(1);
+
+
+
+
 
     getchar();
     return 0;

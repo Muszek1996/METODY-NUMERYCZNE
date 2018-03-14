@@ -1,8 +1,8 @@
-#include "InterpolationFunction.h"
+#include "LagrangeInterpolation.h"
 
 
 
-double InterpolationFunction::lagrangeIOfX(int iArgument, double xArgument)
+double LagrangeInterpolation::lagrangeIOfX(int iArgument, double xArgument)
 {
     iArgument--;
     int pointsCount = points.size();
@@ -22,7 +22,7 @@ double InterpolationFunction::lagrangeIOfX(int iArgument, double xArgument)
 
 }
 
-double InterpolationFunction::interpolationFunction(double xArgument)
+double LagrangeInterpolation::interpolationFunction(double xArgument)
 {
     double interpolationValue = 0;
     int pointsCount = points.size();
@@ -33,11 +33,11 @@ double InterpolationFunction::interpolationFunction(double xArgument)
 
 
 
-InterpolationFunction::InterpolationFunction(std::vector<Punkt> points)
+LagrangeInterpolation::LagrangeInterpolation(std::vector<Punkt> points)
 {
-    InterpolationFunction::points = points;
+    LagrangeInterpolation::points = points;
 }
 
-InterpolationFunction::~InterpolationFunction()
+LagrangeInterpolation::~LagrangeInterpolation()
 {
 }
