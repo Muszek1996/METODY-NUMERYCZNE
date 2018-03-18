@@ -23,7 +23,6 @@ std::vector<double> NewtonianInterpolation::countNlevelIlorazyRoznicowe(int n)
 	++n;
 	int iloscPunktowInterpolowanych = punkty[0].size();
 	int iloscPunktowPoprzedniegoStopnia = punkty[n - 1].size();
-	std::cout << iloscPunktowInterpolowanych;
 	std::vector<double> pointsOfNLevel;
 	for (int i = 0; i<(iloscPunktowPoprzedniegoStopnia - 1); i++)
 	{
