@@ -49,6 +49,7 @@ double NewtonianInterpolation::valueOfX(double x)
 	double sum = 0;
 	double mnożnik = 1;
 	countIlorazyN(punkty[0].size());
+	//countIlorazyN(punkty[0].size());
 	for(int i=1;i<punkty.size()-1;i++)
 	{
 		sum+=punkty[i][0] * mnożnik;

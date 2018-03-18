@@ -14,12 +14,12 @@ int main()
 	if (points.size() < 1)std::cout << "ERROR";
 	
 
-    LagrangeInterpolation Interpolacja(points);
-    double val = Interpolacja.interpolationFunction(7);
+    LagrangeInterpolation InterpolacjaLagrangea(points);
+    double val = InterpolacjaLagrangea.interpolationFunction(7);
 
 	NewtonianInterpolation InterpolacjaNewtona(points);
-	std::cout << std::endl<< InterpolacjaNewtona.valueOfX(1);
-
+	std::cout << InterpolacjaNewtona.valueOfX(1) << std::endl;
+	std::cout << InterpolacjaLagrangea.interpolationFunction(2) << std::endl;
 
 
 
